@@ -1,0 +1,308 @@
+1
+
+   Abaqus 6.14-2                                  Date 12-Oct-2016   Time 19:30:50
+   
+
+
+
+     PROCESSING PART, INSTANCE, AND ASSEMBLY INFORMATION
+   *******************************************************
+
+
+     END PROCESSING PART, INSTANCE, AND ASSEMBLY INFORMATION
+   ***********************************************************
+
+
+
+
+     OPTIONS BEING PROCESSED
+   ***************************
+
+
+  *Heading
+          Hinge Tutorial                                                                                                                                                                                                                                                  
+  *Node
+  *Element, type=C3D8R
+  *Nset, nset=ASSEMBLY_HINGE-HOLE-1_SET-1
+  *Elset, elset=ASSEMBLY_HINGE-HOLE-1_SET-1
+  *Node
+  *Element, type=C3D8R
+  *Nset, nset=ASSEMBLY_HINGE-SOLID-1_SET-1
+  *Elset, elset=ASSEMBLY_HINGE-SOLID-1_SET-1
+  *Node
+  *Nset, nset=ASSEMBLY_PIN-1_PIN-1-REFPT_
+  *Nset, nset=ASSEMBLY_MONITOR
+  *Nset, nset=ASSEMBLY_SET-2
+  *Nset, nset=ASSEMBLY_SET-3
+  *Nset, nset=ASSEMBLY_SET-4
+  *Elset, elset=ASSEMBLY_SET-2
+  *Elset, elset=ASSEMBLY__CP-2-HINGE-HOLE-1_S2
+  *Elset, elset=ASSEMBLY__CP-2-HINGE-HOLE-1_S4
+  *Elset, elset=ASSEMBLY__CP-2-HINGE-HOLE-1_S5
+  *Elset, elset=ASSEMBLY__CP-2-HINGE-SOLID-1_S2
+  *Elset, elset=ASSEMBLY__CP-4-HINGE-HOLE-1_S1
+  *Elset, elset=ASSEMBLY__CP-4-HINGE-HOLE-1_S4
+  *Elset, elset=ASSEMBLY__CP-4-HINGE-HOLE-1_S5
+  *Elset, elset=ASSEMBLY__CP-5-HINGE-SOLID-1_S4
+  *Elset, elset=ASSEMBLY__CP-5-HINGE-SOLID-1_S5
+  *Elset, elset=ASSEMBLY__CP-5-HINGE-SOLID-1_S6
+  *Elset, elset=ASSEMBLY__FLANGE-H_S2
+  *Elset, elset=ASSEMBLY__FLANGE-H_S4
+  *Elset, elset=ASSEMBLY__FLANGE-H_S5
+  *Elset, elset=ASSEMBLY__FLANGE-S_S2
+  *Elset, elset=ASSEMBLY__INSIDE-H_S1
+  *Elset, elset=ASSEMBLY__INSIDE-H_S4
+  *Elset, elset=ASSEMBLY__INSIDE-H_S5
+  *Elset, elset=ASSEMBLY__INSIDE-S_S4
+  *Elset, elset=ASSEMBLY__INSIDE-S_S5
+  *Elset, elset=ASSEMBLY__INSIDE-S_S6
+  *Elset, elset=ASSEMBLY__SURF-12_S2
+  *rigidbody, refnode=ASSEMBLY_PIN-1_PIN-1-REFPT_, analyticalsurface=ASSEMBLY_PIN-1_CP-4-PIN-1
+  *contactpair, interaction=NOFRIC
+  *contactpair, interaction=NOFRIC
+  *contactpair, interaction=NOFRIC
+  *contactpair, interaction=NOFRIC
+  *contactpair, interaction=NOFRIC
+  *contactpair, interaction=NOFRIC
+  *surface, type=REVOLUTION, name=ASSEMBLY_PIN-1_CP-4-PIN-1
+  *surface, type=ELEMENT, name=ASSEMBLY_CP-2-HINGE-HOLE-1
+  *surface, type=ELEMENT, name=ASSEMBLY_CP-2-HINGE-SOLID-1
+  *surface, type=ELEMENT, name=ASSEMBLY_CP-4-HINGE-HOLE-1
+  *surface, type=ELEMENT, name=ASSEMBLY_CP-5-HINGE-SOLID-1
+  *surface, type=ELEMENT, name=ASSEMBLY_FLANGE-H
+  *surface, type=ELEMENT, name=ASSEMBLY_FLANGE-S
+  *surface, type=ELEMENT, name=ASSEMBLY_INSIDE-H
+  *surface, type=ELEMENT, name=ASSEMBLY_INSIDE-S
+  *surface, type=ELEMENT, name=ASSEMBLY_SURF-12
+  *rigidbody, refnode=ASSEMBLY_PIN-1_PIN-1-REFPT_, analyticalsurface=ASSEMBLY_PIN-1_CP-4-PIN-1
+  *rigidbody, refnode=ASSEMBLY_PIN-1_PIN-1-REFPT_, analyticalsurface=ASSEMBLY_PIN-1_CP-4-PIN-1
+  *rigidbody, refnode=ASSEMBLY_PIN-1_PIN-1-REFPT_, analyticalsurface=ASSEMBLY_PIN-1_CP-4-PIN-1
+  *contactpair, interaction=NOFRIC
+  *contactpair, interaction=NOFRIC
+  *contactpair, interaction=NOFRIC
+  *contactpair, interaction=NOFRIC
+  *contactpair, interaction=NOFRIC
+  *contactpair, interaction=NOFRIC
+  *surface, type=REVOLUTION, name=ASSEMBLY_PIN-1_CP-4-PIN-1
+  *surface, type=ELEMENT, name=ASSEMBLY_CP-2-HINGE-HOLE-1
+  *surface, type=ELEMENT, name=ASSEMBLY_CP-2-HINGE-SOLID-1
+  *surface, type=ELEMENT, name=ASSEMBLY_CP-4-HINGE-HOLE-1
+  *surface, type=ELEMENT, name=ASSEMBLY_CP-5-HINGE-SOLID-1
+  *surface, type=ELEMENT, name=ASSEMBLY_FLANGE-H
+  *surface, type=ELEMENT, name=ASSEMBLY_FLANGE-S
+  *surface, type=ELEMENT, name=ASSEMBLY_INSIDE-H
+  *surface, type=ELEMENT, name=ASSEMBLY_INSIDE-S
+  *surface, type=ELEMENT, name=ASSEMBLY_SURF-12
+  *surface, type=REVOLUTION, name=ASSEMBLY_PIN-1_CP-4-PIN-1
+  *surface, type=ELEMENT, name=ASSEMBLY_CP-2-HINGE-HOLE-1
+  *surface, type=ELEMENT, name=ASSEMBLY_CP-2-HINGE-SOLID-1
+  *surface, type=ELEMENT, name=ASSEMBLY_CP-4-HINGE-HOLE-1
+  *surface, type=ELEMENT, name=ASSEMBLY_CP-5-HINGE-SOLID-1
+  *surface, type=ELEMENT, name=ASSEMBLY_FLANGE-H
+  *surface, type=ELEMENT, name=ASSEMBLY_FLANGE-S
+  *surface, type=ELEMENT, name=ASSEMBLY_INSIDE-H
+  *surface, type=ELEMENT, name=ASSEMBLY_INSIDE-S
+  *surface, type=ELEMENT, name=ASSEMBLY_SURF-12
+  *contactpair, interaction=NOFRIC
+  *contactpair, interaction=NOFRIC
+  *contactpair, interaction=NOFRIC
+
+ ***ERROR: THE SLAVE SURFACE ASSEMBLY_PIN-1_CP-4-PIN-1 CANNOT CONSIST OF EITHER 
+           DISCRETE RIGID ELEMENTS OR AN ANALYTICAL RIGID SURFACE.
+ ***NOTE: DUE TO AN INPUT ERROR THE ANALYSIS PRE-PROCESSOR HAS BEEN UNABLE TO 
+          INTERPRET SOME DATA.  SUBSEQUENT ERRORS MAY BE CAUSED BY THIS OMISSION
+  *contactpair, interaction=NOFRIC
+  *contactpair, interaction=NOFRIC
+  *contactpair, interaction=NOFRIC
+  *surfaceinteraction, name=NOFRIC
+  *contactpair, interaction=NOFRIC
+  *contactpair, interaction=NOFRIC
+  *contactpair, interaction=NOFRIC
+
+ ***ERROR: THE SLAVE SURFACE ASSEMBLY_PIN-1_CP-4-PIN-1 CANNOT CONSIST OF EITHER 
+           DISCRETE RIGID ELEMENTS OR AN ANALYTICAL RIGID SURFACE.
+  *contactpair, interaction=NOFRIC
+  *contactpair, interaction=NOFRIC
+  *contactpair, interaction=NOFRIC
+  *rigidbody, refnode=ASSEMBLY_PIN-1_PIN-1-REFPT_, analyticalsurface=ASSEMBLY_PIN-1_CP-4-PIN-1
+  *solidsection, elset=ASSEMBLY_HINGE-HOLE-1_SET-1, material=STEEL
+  *solidsection, elset=ASSEMBLY_HINGE-SOLID-1_SET-1, material=STEEL
+  *material, name=STEEL
+  *elastic
+  *surfaceinteraction, name=NOFRIC
+  *friction
+  *surfaceinteraction, name=NOFRIC
+  *solidsection, elset=ASSEMBLY_HINGE-HOLE-1_SET-1, material=STEEL
+  *solidsection, elset=ASSEMBLY_HINGE-SOLID-1_SET-1, material=STEEL
+  *rigidbody, refnode=ASSEMBLY_PIN-1_PIN-1-REFPT_, analyticalsurface=ASSEMBLY_PIN-1_CP-4-PIN-1
+  *rigidbody, refnode=ASSEMBLY_PIN-1_PIN-1-REFPT_, analyticalsurface=ASSEMBLY_PIN-1_CP-4-PIN-1
+
+ ***WARNING: THE SLAVE SURFACES ASSEMBLY_CP-2-HINGE-SOLID-1 AND 
+             ASSEMBLY_FLANGE-S INTERSECT EACH OTHER. THEY ARE PAIRED WITH 
+             MASTER SURFACES ASSEMBLY_CP-2-HINGE-HOLE-1 AND ASSEMBLY_FLANGE-H 
+             THAT ALSO INTERSECT EACH OTHER. IF BOTH PAIRS ARE *CONTACT PAIRs, 
+             THESE TWO PAIRS SHOULD NOT BE SIMULTANEOUSLY PRESENT IN A STEP 
+             BECAUSE OF POSSIBLE CONVERGENCE PROBLEMS; USE *MODEL 
+             CHANGE,TYPE=CONTACT PAIR TO REMOVE ONE OF THEM. IF BOTH ARE *TIE 
+             PAIRS, THE REDUNDANT TIES WILL BE REMOVED AUTOMATICALLY. IF ONE 
+             PAIR IS *TIE AND ANOTHER IS *CONTACT PAIR, REMOVE ONE OF THEM.
+
+ ***WARNING: THE SLAVE SURFACES ASSEMBLY_INSIDE-H AND 
+             ASSEMBLY_CP-4-HINGE-HOLE-1 PAIRED WITH MASTER SURFACE 
+             ASSEMBLY_PIN-1_CP-4-PIN-1 INTERSECT EACH OTHER. IF BOTH PAIRS ARE 
+             *CONTACT PAIRs, THESE TWO PAIRS SHOULD NOT BE SIMULTANEOUSLY 
+             PRESENT IN A STEP BECAUSE OF POSSIBLE CONVERGENCE PROBLEMS; USE 
+             *MODEL CHANGE,TYPE=CONTACT PAIR TO REMOVE ONE OF THEM. IF BOTH ARE 
+             *TIE PAIRS, THE REDUNDANT TIES WILL BE REMOVED AUTOMATICALLY. IF 
+             ONE PAIR IS *TIE AND ANOTHER IS *CONTACT PAIR, REMOVE ONE OF THEM.
+  *boundary
+  *boundary
+  *boundary
+  *boundary, op=NEW
+  *boundary, op=NEW
+  *boundary, op=NEW
+  *contactpair, interaction=NOFRIC
+  *contactpair, interaction=NOFRIC
+  *contactpair, interaction=NOFRIC
+
+ ***ERROR: THE SLAVE SURFACE ASSEMBLY_PIN-1_CP-4-PIN-1 CANNOT CONSIST OF EITHER 
+           DISCRETE RIGID ELEMENTS OR AN ANALYTICAL RIGID SURFACE.
+  *contactpair, interaction=NOFRIC
+  *contactpair, interaction=NOFRIC
+  *contactpair, interaction=NOFRIC
+  *solidsection, elset=ASSEMBLY_HINGE-HOLE-1_SET-1, material=STEEL
+  *solidsection, elset=ASSEMBLY_HINGE-SOLID-1_SET-1, material=STEEL
+  *surfaceinteraction, name=NOFRIC
+  *contactpair, interaction=NOFRIC
+  *contactpair, interaction=NOFRIC
+  *contactpair, interaction=NOFRIC
+
+ ***ERROR: THE SLAVE SURFACE ASSEMBLY_PIN-1_CP-4-PIN-1 CANNOT CONSIST OF EITHER 
+           DISCRETE RIGID ELEMENTS OR AN ANALYTICAL RIGID SURFACE.
+  *contactpair, interaction=NOFRIC
+  *contactpair, interaction=NOFRIC
+  *contactpair, interaction=NOFRIC
+  *rigidbody, refnode=ASSEMBLY_PIN-1_PIN-1-REFPT_, analyticalsurface=ASSEMBLY_PIN-1_CP-4-PIN-1
+  *surface, type=REVOLUTION, name=ASSEMBLY_PIN-1_CP-4-PIN-1
+  *surface, type=ELEMENT, name=ASSEMBLY_CP-2-HINGE-HOLE-1
+  *surface, type=ELEMENT, name=ASSEMBLY_CP-2-HINGE-SOLID-1
+  *surface, type=ELEMENT, name=ASSEMBLY_CP-4-HINGE-HOLE-1
+  *surface, type=ELEMENT, name=ASSEMBLY_CP-5-HINGE-SOLID-1
+  *surface, type=ELEMENT, name=ASSEMBLY_FLANGE-H
+  *surface, type=ELEMENT, name=ASSEMBLY_FLANGE-S
+  *surface, type=ELEMENT, name=ASSEMBLY_INSIDE-H
+  *surface, type=ELEMENT, name=ASSEMBLY_INSIDE-S
+  *surface, type=ELEMENT, name=ASSEMBLY_SURF-12
+  *output, field
+  *output, history, frequency=0
+  *output, field
+  *output, history, variable=PRESELECT
+  *elementoutput, exterior, directions=YES
+  *elementoutput, exterior, directions=YES
+  *output, field
+  *output, history, frequency=0
+  *output, field
+  *output, history, variable=PRESELECT
+  *elementoutput, exterior, directions=YES
+  *elementoutput, exterior, directions=YES
+  *output, field
+  *output, history, frequency=0
+  *output, field
+  *output, history, variable=PRESELECT
+  *elementoutput, exterior, directions=YES
+  *elementoutput, exterior, directions=YES
+  *rigidbody, refnode=ASSEMBLY_PIN-1_PIN-1-REFPT_, analyticalsurface=ASSEMBLY_PIN-1_CP-4-PIN-1
+  *Step, name=Load, nlgeom=NO
+  *output, field
+  *output, history, frequency=0
+  *Step, name=Contact, nlgeom=NO
+  *output, field
+  *output, history, variable=PRESELECT
+  *Step, name=Load, nlgeom=NO
+  *Step, name=Contact, nlgeom=NO
+  *Step, name=Load, nlgeom=NO
+  Apply load                                                                      
+  *static
+  *boundary, op=NEW
+  *boundary, op=NEW
+  *boundary, op=NEW
+  *dsload
+  *monitor, dof=1, node=ASSEMBLY_MONITOR, frequency=1
+  *output, field
+  *nodeoutput, exterior
+  *elementoutput, exterior, directions=YES
+  *contactoutput
+  *output, history, frequency=0
+  *endstep
+
+ ***WARNING: STRAIN OUTPUT REQUEST LE IS NOT VALID FOR SOME ELEMENTS IN THIS 
+             ANALYSIS. THIS REQUEST IS SWITCHED TO THE STRAIN MEASURE, E.
+
+ ***WARNING: STRAIN OUTPUT REQUEST LE IS NOT VALID FOR SOME ELEMENTS IN THIS 
+             ANALYSIS. THIS REQUEST IS SWITCHED TO THE STRAIN MEASURE, E.
+  *Step, name=Contact, nlgeom=NO
+  Establish contact                                                               
+  *static
+  *output, field
+  *nodeoutput, exterior
+  *elementoutput, exterior, directions=YES
+  *contactoutput
+  *output, history, variable=PRESELECT
+  *endstep
+
+ ***WARNING: STRAIN OUTPUT REQUEST LE IS NOT VALID FOR SOME ELEMENTS IN THIS 
+             ANALYSIS. THIS REQUEST IS SWITCHED TO THE STRAIN MEASURE, E.
+
+ ***WARNING: STRAIN OUTPUT REQUEST LE IS NOT VALID FOR SOME ELEMENTS IN THIS 
+             ANALYSIS. THIS REQUEST IS SWITCHED TO THE STRAIN MEASURE, E.
+  *boundary
+  *boundary
+  *boundary
+  *Step, name=Load, nlgeom=NO
+  *static
+  *boundary, op=NEW
+  *boundary, op=NEW
+  *boundary, op=NEW
+  *endstep
+  *Step, name=Contact, nlgeom=NO
+  *static
+  *endstep
+
+     - (RAMP) OR (STEP) - INDICATE USE OF DEFAULT AMPLITUDES ASSOCIATED WITH THE STEP
+
+     - (RAMP) OR (STEP) - INDICATE USE OF DEFAULT AMPLITUDES ASSOCIATED WITH THE STEP
+
+
+
+                            P R O B L E M   S I Z E
+
+
+          NUMBER OF ELEMENTS IS                                   689
+          NUMBER OF ELEMENTS DEFINED BY THE USER AND *TIE         431
+          NUMBER OF INTERNAL ELEMENTS GENERATED FOR CONTACT       257
+          NUMBER OF NODES IS                                     1114
+          NUMBER OF NODES DEFINED BY THE USER                     750
+          NUMBER OF INTERNAL NODES GENERATED BY THE PROGRAM       364
+          TOTAL NUMBER OF VARIABLES IN THE MODEL                 2799
+          (DEGREES OF FREEDOM PLUS MAX NO. OF ANY LAGRANGE MULTIPLIER
+           VARIABLES. INCLUDE *PRINT,SOLVE=YES TO GET THE ACTUAL NUMBER.)
+
+
+
+
+
+          THE PROGRAM HAS DISCOVERED     4 FATAL ERRORS
+
+               ** EXECUTION IS TERMINATED **
+
+
+
+                              END OF USER INPUT PROCESSING
+
+
+
+     JOB TIME SUMMARY
+       USER TIME (SEC)      =  0.20000    
+       SYSTEM TIME (SEC)    =  0.10000    
+       TOTAL CPU TIME (SEC) =  0.30000    
+       WALLCLOCK TIME (SEC) =          3
